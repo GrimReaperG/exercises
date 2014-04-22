@@ -1,4 +1,4 @@
-exercises
-=========
+# Fauna Interview Exercises
 
-Fauna interview exercises
+Copyright 2014, Fauna, Inc. All rights reserved.
+
