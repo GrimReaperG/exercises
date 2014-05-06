@@ -48,7 +48,7 @@ Assuming the data set is too large to fit in memory, implement an iterator (such
 
 Please use Scala or another statically typed language for your implementation.
 
-A simple example of expected input, output:
+### Sample input & output:
 
 Input #1:
 
