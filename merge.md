@@ -48,3 +48,32 @@ Assuming the data set is too large to fit in memory, implement an iterator (such
 
 Please use Scala or another statically typed language for your implementation.
 
+A simple example of expected input, output:
+
+Input #1:
+
+```
+[13|creatures/123|2|3|age|3|120|4|name|6|Henwen|11|persons/345|1|4|name|5|Taran]
+```
+
+Input #2:
+
+```
+[13|creatures/123|1|11|description|12|Oracular Pig|11|persons/345|1|7|pockets|1|2]
+```
+
+Expected output:
+
+```scala
+scala> iter.next
+
+res1: (String, Map[String, String]) = ("creatures/123", Map("age" -> "120", "description" -> "Oracular Pig", "name" -> "Henwen"))
+
+scala> iter.next
+
+res2: (String, Map[String, String]) = ("persons/345", Map("name" -> "Taran", "pockets" -> "2"))
+
+scala> iter.next
+
+java.util.NoSuchElementException: next on empty iterator
+```
