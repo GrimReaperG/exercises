@@ -50,9 +50,17 @@ Please use Scala or another statically typed language for your implementation.
 
 ### Example:
 
-Input file 1, in ASCII: ```13|creatures/123|2|3|age|3|120|4|name|6|Henwen|11|persons/345|1|4|name|5|Taran```
+Input file 1, in ASCII: 
 
-Input file 2, in ASCII: ```13|creatures/123|1|11|description|12|Oracular Pig|11|persons/345|1|7|pockets|1|2```
+```
+13|creatures/123|2|3|age|3|120|4|name|6|Henwen|11|persons/345|1|4|name|5|Taran
+```
+
+Input file 2, in ASCII: 
+
+```
+13|creatures/123|1|11|description|12|Oracular Pig|11|persons/345|1|7|pockets|1|2
+```
 
 Expected output:
 
