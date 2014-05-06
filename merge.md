@@ -44,7 +44,7 @@ file size limit and we'd like to add the pair `"age": "120"` to
  
     [11|creatures/1|1|3|age|3|120]
  
-Assuming the data set is too large to fit in memory, implement an iterator (such as `java.util.Iterator`) which will combine a set of data files and yield each object and its entire set of key/value pairs. Assume that there will be no conflicts.
+Assuming the data set is too large to fit in memory, implement an iterator (such as `java.util.Iterator`) which will combine a set of data files and yield each object and its entire set of key/value pairs. The iterator must maintain the correct sort order as specified above. Assume that there will be no conflicts.
 
 Please use Scala or another statically typed language for your implementation.
 
