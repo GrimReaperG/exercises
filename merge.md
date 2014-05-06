@@ -66,14 +66,11 @@ Expected output:
 
 ```scala
 scala> iter.next
-
 res1: (String, Map[String, String]) = ("creatures/123", Map("age" -> "120", "description" -> "Oracular Pig", "name" -> "Henwen"))
 
 scala> iter.next
-
 res2: (String, Map[String, String]) = ("persons/345", Map("name" -> "Taran", "pockets" -> "2"))
 
 scala> iter.next
-
 java.util.NoSuchElementException: next on empty iterator
 ```
