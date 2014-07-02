@@ -74,3 +74,7 @@ res2: (String, Map[String, String]) = ("persons/345", Map("name" -> "Taran", "po
 scala> iter.next
 java.util.NoSuchElementException: next on empty iterator
 ```
+
+### Sample input:
+
+You can find some sample input files here: https://github.com/fauna/exercises/tree/master/merge
