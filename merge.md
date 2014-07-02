@@ -50,7 +50,7 @@ Please use Scala or another statically typed language for your implementation.
 
 ### Example:
 
-Ascii-rendered inputs:
+ASCII-rendered inputs:
 
 ```
 13|creatures/123|2|3|age|3|120|4|name|6|Henwen|11|persons/345|1|4|name|5|Taran
