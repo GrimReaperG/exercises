@@ -1,78 +1,51 @@
 # Fauna Interview Exercises
 
-Copyright 2014, Fauna, Inc. All rights reserved.
+Copyright 2015, Fauna, Inc. All rights reserved.
 
-## SSTable Merge Algorithm
+## Merge Algorithm
 
 Consider the following JSON object:
- 
+
     {
-        "creatures/1": {
-            "name": "Henwen",
-            "description": "Oracular pig"
+        "henwen": {
+            "age": "103",
+            "profession": "Oracular pig"
         }
     }
 
-We can serialized this object to disk using the following format:
- 
+We can serialized this object to disk using the following format (all numbers are 64-bit, unsigned, big endian):
+
         Offset | Bytes | Description
     ---------------------------------------------
-             0 |     8 | Object Name length (x)
-             8 |     x | Object Name
-         8 + x |     8 | Key/Value pair count
+             0 |     8 | Object name length (x)
+             8 |     x | Object name
+         8 + x |     8 | Number of key-value pairs
         16 + x |     8 | Key length (y)
         24 + x |     y | Key
     24 + x + y |     8 | Value length (z)
     32 + x + y |     z | Value
-    ....keys and values repeat.... 
- 
+    ....keys and values repeat....
+
 In the example above, this would be encoded as (ASCII representation for readability only):
- 
-    11|creatures/1|2|4|name|6|Henwen|11|description|12|Oracular pig
-    
-To serialize multiple JSON objects, we simply repeat the format for
-each object until EOF. Each file is sorted alphabetically by object
-name, and each object's key/value pairs are sorted by key.
- 
-Once we've encountered 1MB worth of these key/value pairs, we write
-out a new file. In this way, an object's key/value pairs might be
-spread across many files on disk.
- 
-For instance, if the file containing the object above has reached its
-file size limit and we'd like to add the pair `"age": "120"` to
-`creatures/1`, we would add a section to a new file with:
- 
-    11|creatures/1|1|3|age|3|120
- 
-Assuming the data set is too large to fit in memory, implement an iterator (such as `java.util.Iterator`) which will combine a set of data files and yield each object and its entire set of key/value pairs. The iterator must maintain the correct sort order as specified above. Assume that there will be no conflicts.
 
-Please use Scala or another statically typed language for your implementation.
+    6henwen23age310310profession12Oracular pig
 
-### Example:
+To serialize multiple JSON objects in a single file, we can simply repeat the format for each object. Each file is sorted alphabetically by object name, and each object's key-value pairs are sorted alphabetically by key.
 
-ASCII-rendered inputs:
+If we were building a database, we might accumulate new objects in a buffer pool. Once the buffer pool exceeds a certain size, we would need to flush it to disk in the above format and start over. If an object is updated over time, its keys and values will become spread across many files on disk, and reading it will slow down.
 
-```
-13|creatures/123|2|3|age|3|120|4|name|6|Henwen|11|persons/345|1|4|name|5|Taran
-```
+Your task is to implement a compaction function that can take multiple files in this format and merge them into one.
 
-```
-13|creatures/123|1|11|description|12|Oracular Pig|11|persons/345|1|7|pockets|1|2
-```
+  - Objects and their inner keys and values must be emitted in the correct order
+  - The input and output files may be too large to fit in memory, so you must process them incrementally
+  - If the same key is present within an object in multiple files, you can resolve the conflict any way that you choose
 
-Expected output, in Scala:
+Please use a statically typed language for your implementation, if you know one, and include automated tests.
 
-```scala
-scala> iter.next
-res1: (String, Map[String, String]) = ("creatures/123", Map("age" -> "120", "description" -> "Oracular Pig", "name" -> "Henwen"))
+### Input and output
 
-scala> iter.next
-res2: (String, Map[String, String]) = ("persons/345", Map("name" -> "Taran", "pockets" -> "2"))
+You can find sample input and output files here: https://github.com/fauna/exercises/tree/master/merge
 
-scala> iter.next
-java.util.NoSuchElementException: next on empty iterator
-```
+### Extra credit
 
-### Sample input:
-
-You can find some sample input files here: https://github.com/fauna/exercises/tree/master/merge
+Implement a reader function for a set of files in the above format that lets you retrieve any particular merged object by name. Again, avoid loading the entire file contents into memory. Consider the performance implications of your reader strategy.
