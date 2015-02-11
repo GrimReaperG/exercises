@@ -32,7 +32,7 @@ In the example above, this would be encoded as:
 
 To serialize multiple JSON objects in a single file, we can simply repeat the format for each object. Each file is sorted alphabetically by object name, and each object's key-value pairs are sorted alphabetically by key.
 
-If we were building a database, we might accumulate new objects in a buffer pool. Once the buffer pool exceeds a certain size, we would need to flush it to disk in the above format and start over. If an object is updated over time, its keys and values will become spread across many files on disk, and reading it will slow down. To restore read performance, we must merge them multiple files into one.
+If we were building a database, we might accumulate new objects in a buffer pool. Once the buffer pool exceeds a certain size, we would need to flush it to disk in the above format and start over. If an object is updated over time, its keys and values will become spread across many files on disk, and reading it will slow down. To restore read performance, we must merge multiple files into one.
 
 Your task is to implement a compaction function that can merge files in this format.
 
