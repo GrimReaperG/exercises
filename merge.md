@@ -13,7 +13,7 @@ Consider the following JSON object:
         }
     }
 
-We can serialized this object to disk using the following format (all numbers are 64-bit, unsigned, big endian):
+We can serialize this object to disk using the following format (all numbers are 64-bit, unsigned, big endian):
 
         Offset | Bytes | Description
     ---------------------------------------------
