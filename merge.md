@@ -4,16 +4,14 @@ Copyright 2015, Fauna, Inc. All rights reserved.
 
 ## Merge Algorithm
 
-Consider the following JSON object:
+Consider the following data object:
 
-    {
-        "henwen": {
-            "age": "103",
-            "profession": "Oracular pig"
-        }
+    "henwen": {
+        "age": "103",
+        "profession": "Oracular pig"
     }
 
-We can serialize this object to disk using the following format (all numbers are 64-bit, unsigned, big endian):
+We could serialize this object to disk using the following format (all numbers are 64-bit, unsigned, big endian):
 
         Offset | Bytes | Description
     ---------------------------------------------
