@@ -34,9 +34,9 @@ If we were building a database, we might accumulate new objects in a buffer pool
 
 Your task is to implement a compaction function that can merge files in this format.
 
-  - Objects and their inner keys and values must be emitted in the correct order
-  - The input and output files may be too large to fit in memory, so you must process them incrementally
-  - If the same key is present within an object in multiple files, you can resolve the conflict any way that you choose
+  - Objects and their inner keys and values must be emitted in the correct order.
+  - The input and output files may be too large to fit in memory, so you must process them incrementally.
+  - If the same key is present within an object in multiple files, you can resolve the conflict any way that you choose.
 
 Please use a statically typed language for your implementation, if you know one, and include automated tests.
 
@@ -46,4 +46,5 @@ You can find sample input and output files here: https://github.com/fauna/exerci
 
 ### Extra credit
 
-Implement a reader function for a set of files in the above format that lets you retrieve any particular merged object by name. Again, avoid loading the entire file contents into memory. Consider the performance implications of your reader strategy.
+ * Assume that any object undergoing compaction may be individually too large to fit in memory.
+ * Implement a reader function that lets you retrieve an object by name. Consider the performance implications of your strategy.
