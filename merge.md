@@ -11,7 +11,7 @@ Consider the following data object:
         "profession": "Oracular pig"
     }
 
-We could serialize this object to disk using the following format (all numbers are 64-bit, unsigned, big endian):
+We could serialize this object to disk using the following format (all numbers are 64-bit unsigned big endian, and all object names, keys and values are ASCII strings):
 
         Offset | Bytes | Description
     ---------------------------------------------
