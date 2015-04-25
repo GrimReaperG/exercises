@@ -19,7 +19,7 @@ The rules are as follows:
 
 Please submit your solution by email; we will discuss with you if we have questions or need clarification about your solution. If you choose to include a cover letter explaining you approach, we will take that into account as well.
 
-## Evaluation criteria
+## Evaluation Criteria
 
 You will be primarily evaluated on the following points:
 
