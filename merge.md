@@ -1,8 +1,7 @@
-# Fauna Interview Exercises
-
-Copyright 2015, Fauna, Inc. All rights reserved.
 
 ## Merge Algorithm
+
+Copyright 2015, Fauna, Inc. All rights reserved.
 
 Consider the following data object:
 
