@@ -41,7 +41,7 @@ Please use a statically typed language for your implementation, if you know one,
 
 ### Input and output
 
-You can find sample input and output files here: https://github.com/fauna/exercises/tree/master/merge
+You can find sample input and output files [here](https://github.com/faunadb/exercises/tree/master/merge).
 
 ### Extra credit
 
