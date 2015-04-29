@@ -12,7 +12,7 @@ For your initial evaluation, please choose a coding exercise, below (currently t
 
 The rules are as follows:
 
-- Please use the language you know best for your implementation, but if you know several languages equally well, a statically-typed or functional language would be preferable. 
+- Please code in the language you know best, but if you know several languages equally well, a statically-typed or functional language would be preferable. 
 - You must include automated tests.
 - You can work on your own and take as much time as you like.
 - You can use external resources such as Stack Overflow and books. If you get help from another developer, please let us know.
