@@ -35,7 +35,7 @@ Your task is to implement a compaction function that can merge files in this for
 
   - Objects and their inner keys and values must be emitted in the correct order.
   - The input and output files may be too large to fit in memory, so you must process them incrementally.
-  - If the same key is present within an object in multiple files, you can resolve the conflict any way that you choose.
+  - If the same key is present within an object in multiple files, you should resolve the conflict. Please document the resolution strategy you choose.
 
 Please use a statically typed language for your implementation, if you know one, and include automated tests.
 
