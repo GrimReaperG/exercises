@@ -4,7 +4,7 @@ Copyright 2015, Fauna, Inc. All rights reserved.
 
 ## Exercises
 
-For your initial evaluation, please choose an exercise, below (currently there is only one):
+For your initial evaluation, please choose an exercise below:
 
 - Front-end positions:
   - [App mockup](https://github.com/faunadb/exercises/blob/master/app.md)
