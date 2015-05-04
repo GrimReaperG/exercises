@@ -14,6 +14,7 @@ Requirements:
   - The implementation must be responsive, with clear breakpoints.
   - Navigation dropdowns must function and be implemented with JavaScript.
   - Include at least 3 different hover effects; two for text, and one for image.
+  - Do not use Bootstrap.
   - Use SCSS.
 
 Additional notes:
