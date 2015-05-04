@@ -18,7 +18,7 @@ The rules are as follows:
 - You can work on your own and take as much time as you like.
 - You can use external resources such as Stack Overflow and books. If you get help from another developer, please let us know.
 
-Please submit your solution by email; we will discuss with you if we have questions or need clarification about your solution. If you choose to include a cover letter or README explaining your approach, we will take that into account as well.
+Please submit your solution by emailing a .zip file (do not put your solution on GitHub). If you choose to include a cover letter or README explaining your approach, we will take that into account as well. We will discuss with you if we have questions, and potentially request revision if necessary.
 
 ## Evaluation Criteria
 
