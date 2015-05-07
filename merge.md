@@ -34,7 +34,7 @@ If we were building a database, we might accumulate new objects in a buffer pool
 Your task is to implement a compaction function that can merge files in this format.
 
   - Objects and their inner keys and values must be emitted in the correct order.
-  - The input and output files may be too large to fit in memory, so you must process them incrementally.
+  - Any individual object may be too large to fit in memory, so you must process objects incrementally.
   - If the same key is present within an object in multiple files, you should resolve the conflict. Please document the resolution strategy you choose.
 
 Please use a statically typed language for your implementation, if you know one, and include automated tests.
@@ -45,5 +45,4 @@ You can find sample input and output files [here](https://github.com/faunadb/exe
 
 ### Extra credit
 
- * Assume that any object undergoing compaction may be individually too large to fit in memory.
  * Implement a reader function that lets you retrieve an object by name. Consider the performance implications of your strategy.
