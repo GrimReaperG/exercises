@@ -6,8 +6,12 @@ Copyright 2015, Fauna, Inc. All rights reserved.
 
 For your initial evaluation, please choose an exercise below:
 
+- Designer positions:
+  - [Responsive mockup](https://github.com/faunadb/exercises/blob/master/mock.md)
+
 - Front-end positions:
-  - [App mockup](https://github.com/faunadb/exercises/blob/master/app.md)
+  - [Webpage skin](https://github.com/faunadb/exercises/blob/master/app.md)
+
 - Full-stack or distributed systems positions:
   - [Merge algorithm](https://github.com/faunadb/exercises/blob/master/merge.md)
 
@@ -16,17 +20,17 @@ For your initial evaluation, please choose an exercise below:
 The rules are as follows:
 
 - You can work on your own and take as much time as you like.
-- You can use external resources such as Stack Overflow and books. If you get help from another developer, please let us know.
+- You can use existing resources such as Stack Overflow or books. If you get help from another person, please let us know.
 
-Please submit your solution by emailing a .zip file to jobs@faunadb.com (do not put your solution on GitHub). If you choose to include a cover letter or README explaining your approach, we will take that into account as well. We will discuss with you if we have questions, and potentially request revision if necessary.
+Please submit your solution with the job application upload form. Do not put your solution on GitHub. If you choose to include a README explaining your approach, we will take that into account as well. We will discuss with you if we have questions.
 
 ## Evaluation Criteria
 
 You will be primarily evaluated on the following points:
 
 - Correctness
-- Code clarity and extensibility
-- Demonstration of insight into performance characteristics
+- Implementation clarity and extensibility
+- Performance-mindedness
 - Thoroughness of tests, if applicable
 
 Good luck!
