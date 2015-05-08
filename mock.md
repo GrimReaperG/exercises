@@ -20,7 +20,7 @@ General requirements:
   - Include at least one call-to-action button.
   - Use the palette provided below.
 
-<img src="https://raw.githubusercontent.com/faunadb/exercises/master/palette.jpg" width="80%">
+<img src="https://raw.githubusercontent.com/faunadb/exercises/master/palette.jpg" width="33%">
 
 Desktop-specific requirements:
 
