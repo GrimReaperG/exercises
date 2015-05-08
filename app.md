@@ -5,8 +5,8 @@ Copyright 2015, Fauna, Inc. All rights reserved. For general instructions, see [
 
 Consider the following pair of mockups:
 
-<img src="https://raw.githubusercontent.com/faunadb/exercises/master/app.jpg" width="25%" style="float:left;">
-<img src="https://raw.githubusercontent.com/faunadb/exercises/master/app2.jpg" width="25%" style="float:left;margin-left:10px;">
+<img src="https://raw.githubusercontent.com/faunadb/exercises/master/app.jpg" width="33%" style="float:left;">
+<img src="https://raw.githubusercontent.com/faunadb/exercises/master/app2.jpg" width="33%" style="float:left;margin-left:10px;">
 
 Your task is to implement this webpage as valid HTML, SCSS, and JavaScript.
 
