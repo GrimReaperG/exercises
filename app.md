@@ -1,5 +1,5 @@
 
-## App
+## Responsive Page Implementation
 
 Copyright 2015, Fauna, Inc. All rights reserved. For general instructions, see [here](https://github.com/faunadb/exercises/blob/master/README.md).
 
