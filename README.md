@@ -6,11 +6,11 @@ Copyright 2015, Fauna, Inc. All rights reserved.
 
 Please choose an exercise below based on the position you are applying for:
 
-- Designer positions:
+- Designers:
   - [Responsive Mockup](https://github.com/faunadb/exercises/blob/master/mock.md)
-- Front-end positions:
+- Front-end engineers:
   - [Responsive Page Implementation](https://github.com/faunadb/exercises/blob/master/app.md)
-- Full-stack or distributed systems positions:
+- Full-stack or distributed systems engineers:
   - [Merge Algorithm](https://github.com/faunadb/exercises/blob/master/merge.md)
 
 ## Instructions
