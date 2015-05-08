@@ -7,17 +7,17 @@ Copyright 2015, Fauna, Inc. All rights reserved.
 For your initial evaluation, please choose an exercise below:
 
 - Designer positions:
-  - [Responsive mockup](https://github.com/faunadb/exercises/blob/master/mock.md)
+  - [Responsive Mockup](https://github.com/faunadb/exercises/blob/master/mock.md)
 
 - Front-end positions:
-  - [Webpage skin](https://github.com/faunadb/exercises/blob/master/app.md)
+  - [Responsive Page Implementation](https://github.com/faunadb/exercises/blob/master/app.md)
 
 - Full-stack or distributed systems positions:
-  - [Merge algorithm](https://github.com/faunadb/exercises/blob/master/merge.md)
+  - [Merge Algorithm](https://github.com/faunadb/exercises/blob/master/merge.md)
 
 ## Instructions
 
-The rules are as follows:
+The instructions are as follows:
 
 - You can work on your own and take as much time as you like.
 - You can use existing resources such as Stack Overflow or books. If you get help from another person, please let us know.
