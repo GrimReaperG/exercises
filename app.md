@@ -26,7 +26,7 @@ Requirements:
   - Your implementation should be responsive with clear breakpoints.
   - Use SMACSS with SCSS.
   - Include at least 3 different hover effects; two for text, and one for a call-to-action button.
-  - Use [this SVG](https://github.com/faunadb/exercises/master/business-icon.svg) to create the second slider. It must be rendered as an SVG and scale responsively with its container.
+  - Use [this SVG](https://github.com/faunadb/exercises/blob/master/business-icon.svg) to create the second slider. It must be rendered as an SVG and scale responsively with its container.
   - Render the text within the SVG in the second slider underneath the triangle light layer. It must render precisely.
   - You must include automated tests for layout and behavior using a framework such as PhantomJS
 
