@@ -13,11 +13,11 @@ Your task is to implement this webpage as valid HTML, SCSS, and JavaScript.
 Instructions:
 
   - The first mockup shows the original state of the page.
-  - The second mockup shows the transition states of various elements on the page. The transitions are:
-    - A functioning dropdown with collapsible `ul` and `li` elements within it.
-    - A slider that covers the top area no matter the width.
+  - The second mockup shows the transition states of various elements on the page:
+    - The dropdown should function, with collapsible `ul` and `li` elements within it.
+    - The slider should cover the top area no matter the width.
     - The pink icons in the third section should begin with an initial state of half opacity, half scale, and expand and increase in opacity when they scroll into view.
-    - The large image in the "Latest News" section, which flips a card to reveal the background and text underneath.
+    - The large image in the "Latest News" section should flip a card to reveal the background and text underneath.
   - At the end of the third section with the pink icons, add the text "Where are you located in the United States?" with a `select` input for the user to choose their state. Please style it according to the rest of the page.
 
 Requirements:
