@@ -15,15 +15,15 @@ Instructions:
   - The first mockup shows the original state of the page.
   - The second mockup shows the transition states of various elements on the page. The transitions are:
     - A functioning dropdown with collapsible `ul` and `li` elements within it.
-    - A slider that covers the top area no matter the width
-    - The third section with the pink icons, which appears on the screen when scrolled. They appear individually with initial state of half opacity, half scale.
+    - A slider that covers the top area no matter the width.
+    - The pink icons in the third section should begin with an initial state of half opacity, half scale, and expand and increase in opacity when they scroll into view.
     - The large image in the "Latest News" section, which flips a card to reveal the background and text underneath.
   - At the end of the third section with the pink icons, add the text "Where are you located in the United States?" with a `select` input for the user to choose their state. Please style it according to the rest of the page.
 
 Requirements:
 
   - Do not use Bootstrap.
-  - Your implementation should be responsive with clear breakpoints.
+  - Your implementation should be responsive with clear breakpoints, and scale to desktop, tablet, and mobile viewports.
   - Use SMACSS with SCSS.
   - Include at least 3 different hover effects; two for text, and one for a call-to-action button.
   - Use [this SVG](https://github.com/faunadb/exercises/blob/master/business-icon.svg) to create the second slider. It must be rendered as an SVG and scale responsively with its container.
