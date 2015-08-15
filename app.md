@@ -26,7 +26,7 @@ Requirements:
   - Use SMACSS with SCSS.
   - Include at least 3 different hover effects; two for text, and one for a call-to-action button.
   - Use [this SVG](https://github.com/faunadb/exercises/blob/master/business-icon.svg) to create the second slider. It must be rendered as an SVG and scale responsively with its container.
-  - Include automated tests for layout and/or behavior using a framework such as PhantomJS or Galen
+  - Include automated tests for layout and/or behavior using a framework such as PhantomJS or Galen.
   - Do not use Bootstrap.
 
 Additional notes:

@@ -5,22 +5,19 @@ Copyright 2015, Fauna, Inc. All rights reserved. For general instructions, see [
 
 Consider the following incomprehensible chart:
 
-<img src="https://raw.githubusercontent.com/faunadb/exercises/master/viz.jpg" width="50%">
+<img src="https://raw.githubusercontent.com/faunadb/exercises/master/viz.jpg" width="80%">
 
 Your goal is to reinterpret this data in a way that makes sense. Your visualization should implemented as a single webpage with valid HTML, CSS, and JavaScript.
 
 Requirements:
 
-  - You should use a visualization framework like D3 that interprets an embedded dataset.
+  - You should use a visualization framework such as D3 that interprets an embedded dataset.
   - The visualization should be interactive.
   - The layout should be responsive and work on both desktop and mobile.
   - Please include at least two animation effects.
-
-Additional notes:
-
-  - You can include additional data from other sources to make the visualization more comprehensive. If you do, please document your sources.
+  - Include automated tests for layout or behavior using a framework such as PhantomJS or Galen.
+  - Do not use Bootstrap.
 
 ### Extra credit
 
-  - Include automated tests for layout and/or behavior with a framework such as Selenium
-  - Do not use Bootstrap.
+  - Include additional data to make the visualization more comprehensive, and document your sources.
