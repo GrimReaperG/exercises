@@ -1,5 +1,5 @@
 
-## Visualization exercise
+## Responsive visualization exercise
 
 Copyright 2015, Fauna, Inc. All rights reserved. For general instructions, see [here](https://github.com/faunadb/exercises/blob/master/README.md).
 
@@ -7,7 +7,7 @@ Consider the following incomprehensible chart:
 
 <img src="https://raw.githubusercontent.com/faunadb/exercises/master/viz.jpg" width="50%">
 
-Your task is to reinterpret this data in a way that makes sense. Your visualization should implemented as a single webpage with valid HTML, CSS, and JavaScript.
+Your goal is to reinterpret this data in a way that makes sense. Your visualization should implemented as a single webpage with valid HTML, CSS, and JavaScript.
 
 Requirements:
 
@@ -15,7 +15,6 @@ Requirements:
   - The visualization should be interactive.
   - The layout should be responsive and work on both desktop and mobile.
   - Please include at least two animation effects.
-  - Do not use Bootstrap.
 
 Additional notes:
 
@@ -23,4 +22,5 @@ Additional notes:
 
 ### Extra credit
 
- * Include automated tests for layout and/or behavior with a framework such as Selenium
+  - Include automated tests for layout and/or behavior with a framework such as Selenium
+  - Do not use Bootstrap.

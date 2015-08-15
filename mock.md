@@ -3,7 +3,7 @@
 
 Copyright 2015, Fauna, Inc. All rights reserved. For general instructions, see [here](https://github.com/faunadb/exercises/blob/master/README.md).
 
-Your task is to redesign this page: https://en.wikipedia.org/wiki/Squall
+Your goal is to redesign this page: https://en.wikipedia.org/wiki/Squall
 
 You should create two mockups for the web: one desktop, one mobile (assume a responsive design and implementation). You should also include a two-paragraph written discussion of the user experience of the page and the design decisions you made in light of the user's needs.
 
@@ -25,4 +25,4 @@ Additional notes:
 
 ### Extra credit
 
- * Choose something in your design that might be difficult for an older browser such as Internet Explorer to render. Include an alternate version of that element for designed older browsers.
+  - Choose something in your design that might be difficult for an older browser such as Internet Explorer to render. Include an alternate version of that element for designed older browsers.

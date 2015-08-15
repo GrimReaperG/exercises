@@ -4,10 +4,10 @@ Copyright 2015, Fauna, Inc. All rights reserved.
 
 ## Exercises
 
-For your initial evaluation, please choose an exercise below:
+Please choose an exercise below based on the position you are applying for:
 
 - Design positions:
-  - [Responsive mockup](https://github.com/faunadb/exercises/blob/master/mock.md)
+  - [Webpage mockup](https://github.com/faunadb/exercises/blob/master/mock.md)
 
 - Front-end positions:
   - [Data visualization](https://github.com/faunadb/exercises/blob/master/viz.md)
@@ -21,7 +21,7 @@ For your initial evaluation, please choose an exercise below:
 
 ## Instructions
 
-The rules are as follows:
+The instructions are as follows:
 
 - You can work on your own and take as much time as you like.
 - You can use existing resources such as Stack Overflow or books. If you get help from another person, please let us know.
