@@ -18,6 +18,10 @@ Requirements:
   - Include automated tests for layout or behavior using a framework such as PhantomJS or Galen.
   - Do not use Bootstrap.
 
+Additional notes:
+
+  - You don't need to maintain any of the original graphics unless you want to.
+
 ### Extra credit
 
   - Include additional data to make the visualization more comprehensive, and document your sources.
