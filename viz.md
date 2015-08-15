@@ -26,4 +26,4 @@ Additional notes:
 
 ### Extra credit
 
-  - Support interactive drilldown by both country of origin and food category.
+  - Support simultaneous drilldown by country of origin and food category.
