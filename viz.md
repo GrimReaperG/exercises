@@ -7,7 +7,9 @@ Consider the following incomprehensible chart:
 
 <img src="https://raw.githubusercontent.com/faunadb/exercises/master/viz.jpg" width="66%" style="border: 1px; margin: 20px;">
 
-Your goal is to reinterpret this data in a way that makes sense. Your visualization should implemented as a single webpage with valid HTML, CSS, and JavaScript.
+Your goal is to present this data in a way that makes sense. Your visualization should implemented as a single webpage with valid HTML, CSS, and JavaScript.
+
+The original data sources are [here](http://www.ers.usda.gov/data-products/us-food-imports.aspx).
 
 Requirements:
 
@@ -20,4 +22,4 @@ Requirements:
 
 ### Extra credit
 
-  - Include additional data to make the visualization more comprehensive, and document your sources.
+  - Support interactive drilldown by both country of origin and food category.
