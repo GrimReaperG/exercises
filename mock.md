@@ -1,5 +1,5 @@
 
-## Mock
+## Responsive mockup exercise
 
 Copyright 2015, Fauna, Inc. All rights reserved. For general instructions, see [here](https://github.com/faunadb/exercises/blob/master/README.md).
 
@@ -10,26 +10,18 @@ You should create two mockups for the web: one desktop, one mobile (assume a res
 General requirements:
 
   - Use all of the content that you see on the page down to 900px height (your own design can be a different height, though).
-  - If you obscure any items in dropdowns, accordions, or the like, show an example of the expanded view as well.
-  - Use Raleway for headers and Open Sans for body text.
-  - Use icons somewhere on the page. They should share the same design language and weight.
-  - You can change the Wikipedia logo if you wish, but you don't have to.
-  - Please follow the grid shown here: https://faunadb.com/styleguide#grid.
+  - Use a consistent palette and font set.
   - Please include two examples of hover links.
   - Please use the images included. They may be any size.
-  - Include at least one call-to-action button.
-  - Use the palette provided below.
+  - Include some icons with a consistent visual language.
+  - Include a call-to-action button.
 
-<img src="https://raw.githubusercontent.com/faunadb/exercises/master/palette.jpg" width="33%">
+Additional notes:
 
-Desktop-specific requirements:
-
-  - Must be 950px in width.
-
-Mobile-specific requirements:
-
-  - You can show just 1/3 of the body content.
-  - If you have a collapsible navigation, include an additional mockup showing it open.
+  - The desktop layout should be 950px wide.
+  - For mobile, you can show just 1/3 of the body content.
+  - You can change the Wikipedia logo if you wish, but you don't have to.
+  - If you obscure any items in dropdowns, accordions, or the like, show an example of the expanded view as well.
 
 ### Extra credit
 
