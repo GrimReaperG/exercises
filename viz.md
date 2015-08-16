@@ -5,7 +5,7 @@ Copyright 2015, Fauna, Inc. All rights reserved. For general instructions, see [
 
 Consider the following incomprehensible chart:
 
-<img src="https://raw.githubusercontent.com/faunadb/exercises/master/viz.jpg" width="66%">
+<img src="https://raw.githubusercontent.com/faunadb/exercises/master/viz/viz.jpg" width="66%">
 
 Your goal is to present this data in a way that makes sense. Your visualization should implemented as a single webpage with valid HTML, CSS, and JavaScript.
 

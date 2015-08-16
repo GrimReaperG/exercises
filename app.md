@@ -5,8 +5,8 @@ Copyright 2015, Fauna, Inc. All rights reserved. For general instructions, see [
 
 Consider the following pair of mockups:
 
-<img src="https://raw.githubusercontent.com/faunadb/exercises/master/app.jpg" width="33%" style="float:left;">
-<img src="https://raw.githubusercontent.com/faunadb/exercises/master/app2.jpg" width="33%" style="float:left;margin-left:10px;">
+<img src="https://raw.githubusercontent.com/faunadb/exercises/master/app/app.jpg" width="33%" style="float:left;">
+<img src="https://raw.githubusercontent.com/faunadb/exercises/master/app/app2.jpg" width="33%" style="float:left;margin-left:10px;">
 
 Your goal is to implement this webpage as valid HTML, SCSS, and JavaScript.
 
@@ -25,7 +25,7 @@ Requirements:
   - Your implementation should be responsive with clear breakpoints, and scale to desktop, tablet, and mobile viewports.
   - Use SMACSS with SCSS.
   - Include at least 3 different hover effects; two for text, and one for a call-to-action button.
-  - Use [this SVG](https://github.com/faunadb/exercises/blob/master/business-icon.svg) to create the second slider. It must be rendered as an SVG and scale responsively with its container.
+  - Use [this SVG](https://github.com/faunadb/exercises/blob/master/app/business-icon.svg) to create the second slider. It must be rendered as an SVG and scale responsively with its container.
   - Include automated tests for layout and/or behavior using a framework such as PhantomJS or Galen.
   - Do not use Bootstrap.
 
