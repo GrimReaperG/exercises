@@ -18,7 +18,6 @@ The original data sources are [here](http://www.ers.usda.gov/data-products/us-fo
 Requirements:
 
   - You should use a visualization framework such as D3 and interpret an embedded dataset that can be easily updated.
-  - The visualization should be interactive.
   - The visualization should support drilldown by category, year, and country of origin.
   - The layout should be responsive and work on both desktop and mobile.
   - Include automated tests for layout or behavior using a framework such as PhantomJS or Galen.
@@ -26,7 +25,7 @@ Requirements:
 
 Additional notes:
 
-  - The units for each category are not the same. You should find a way to either normalize all units, or prevent comparisons and aggregations that don't make sense.
+  - The units for each category are not always the same. You'll need to find a way to either normalize all units, or prevent comparisons that don't make sense.
 
 ### Extra credit
 
