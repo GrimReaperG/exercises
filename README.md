@@ -7,17 +7,17 @@ Copyright 2015, Fauna, Inc. All rights reserved.
 Please choose an exercise below based on the position you are applying for:
 
 - Design positions:
-  - [Webpage mockup](https://github.com/faunadb/exercises/blob/master/mock.md)
+  - [Webpage mockup](https://github.com/faunadb/exercises/blob/master/design.md)
 
 - Front-end positions:
-  - [Data visualization](https://github.com/faunadb/exercises/blob/master/viz.md)
-  - [Webpage layout](https://github.com/faunadb/exercises/blob/master/app.md)
+  - [Data visualization](https://github.com/faunadb/exercises/blob/master/front-end-visualization.md)
+  - [Webpage layout](https://github.com/faunadb/exercises/blob/master/front-end-layout.md)
 
 - Full-stack positions:
   - Coming soon!
 
 - Distributed systems positions:
-  - [Merge algorithm](https://github.com/faunadb/exercises/blob/master/merge.md)
+  - [Merge algorithm](https://github.com/faunadb/exercises/blob/master/distributed-systems.md)
 
 ## Instructions
 

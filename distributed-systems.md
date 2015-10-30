@@ -25,7 +25,7 @@ We could serialize this object to disk using the following format (all numbers a
 
 In the example above, this would be encoded as:
 
-<img src="https://raw.githubusercontent.com/faunadb/exercises/master/merge/merge.png" width="50%">
+<img src="https://raw.githubusercontent.com/faunadb/exercises/master/distributed-systems/distributed-systems.png" width="50%">
 
 To serialize multiple objects in a single file, we can simply repeat the format for each object. Each file is sorted in ASCII order by object name, and each object's key-value pairs are sorted in ASCII order by key.
 
@@ -41,7 +41,7 @@ Please use a statically typed language for your implementation, if you know one,
 
 ### Input and output
 
-You can find sample input and output files [here](https://github.com/faunadb/exercises/tree/master/merge).
+You can find sample input and output files [here](https://github.com/faunadb/exercises/tree/master/distributed-systems).
 
 ### Extra credit
 
