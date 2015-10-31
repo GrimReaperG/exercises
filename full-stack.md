@@ -9,7 +9,7 @@ Your task is to implement an API service that performs the same functions as Mai
 
  - `POST /mailbox`: Create a random email address.
  - `POST /mailbox/{email address}`: Send a message to a specific email address at the service.
- - `GET /mailbox/{email address}`: Retrieve an index of messages received at a particular email address, including sender, subject, and id, in recency order. Support cursor-based pagination.
+ - `GET /mailbox/{email address}`: Retrieve an index of messages received at a particular email address, including sender, subject, and id, in recency order.
  - `GET /message/{message id}`: Retrieve a specific message by id.
 
 Whether email addresses need to be explicitly created in order to receive messages is up to you.
@@ -29,3 +29,4 @@ The original Mailinator service ran as a single Java process on a single machine
 
  - Implement a solution that stores all data entirely in-memory and in-process (do not use Redis or a similar memory store, and do not write to disk). Make sure to manage the size of the process heap to avoid OOM exceptions.
  - Support receiving messages via SMTP.
+ - Support cursor-based pagination on the index view.
