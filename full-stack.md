@@ -14,7 +14,7 @@ Your task is to implement an API service that performs the same functions as Mai
  - `GET /mailbox/{email address}`: Retrieve an index of messages received at a particular email address, including sender, subject, and id, in recency order. Support cursor-based pagination through the index.
  - `GET /message/{message id}`: Retrieve a specific message by id.
 
-Whether email addresses need to be explicitly created in order to receive messages is up to you.
+Whether email addresses need to be created before they can receive messages is up to you.
 
 Additional requirements:
 
