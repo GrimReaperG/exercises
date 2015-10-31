@@ -5,7 +5,7 @@ Copyright 2015, Fauna, Inc. All rights reserved. For general instructions, see [
 
 ### Mailinator
 
-Mailinator is a web service for checking email sent to public, temporary email addresses. There are many similar services.
+Mailinator is a web service for checking email sent to public, temporary email addresses. There are many similar services, but Mailinator was one of the first.
 
 Your task is to implement an API service that performs the same functions as Mailinator. It should expose the following HTTP endpoints.
 
