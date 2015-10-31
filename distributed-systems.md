@@ -1,5 +1,5 @@
 
-## Merge algorithm exercise
+## Distributed Systems Exercise
 
 Copyright 2015, Fauna, Inc. All rights reserved. For general instructions, see [here](https://github.com/faunadb/exercises/blob/master/README.md).
 
@@ -25,7 +25,7 @@ We could serialize this object to disk using the following format (all numbers a
 
 In the example above, this would be encoded as:
 
-<img src="https://raw.githubusercontent.com/faunadb/exercises/master/merge/merge.png" width="50%">
+<img src="https://raw.githubusercontent.com/faunadb/exercises/master/distributed-systems/distributed-systems.png" width="50%">
 
 To serialize multiple objects in a single file, we can simply repeat the format for each object. Each file is sorted in ASCII order by object name, and each object's key-value pairs are sorted in ASCII order by key.
 
@@ -39,10 +39,10 @@ Your task is to implement a compaction function that can merge files in this for
 
 Please use a statically typed language for your implementation, if you know one, and include automated tests.
 
-### Input and output
+### Input and Output
 
-You can find sample input and output files [here](https://github.com/faunadb/exercises/tree/master/merge).
+You can find sample input and output files [here](https://github.com/faunadb/exercises/tree/master/distributed-systems).
 
-### Extra credit
+### Extra Credit
 
  * Implement a reader function that lets you retrieve an object by name. Consider the performance implications of your strategy.

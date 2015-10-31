@@ -1,13 +1,13 @@
 
-## Responsive visualization exercise
+## Front End Exercise (Visualization)
 
 Copyright 2015, Fauna, Inc. All rights reserved. For general instructions, see [here](https://github.com/faunadb/exercises/blob/master/README.md).
 
-Consider the following dataset provided by the USDA ([Excel format](https://raw.githubusercontent.com/faunadb/exercises/master/viz/importedfoodsbycountry2015.xls) / [HTML format](https://raw.githubusercontent.com/faunadb/exercises/master/viz/importedfoodsbycountry2015.tar.gz)) of food import quantities to the United States by year, category, and origin.
+Consider the following dataset provided by the USDA ([Excel format](https://raw.githubusercontent.com/faunadb/exercises/master/front-end-visualization/importedfoodsbycountry2015.xls) / [HTML format](https://raw.githubusercontent.com/faunadb/exercises/master/front-end-visualization/importedfoodsbycountry2015.tar.gz)) of food import quantities to the United States by year, category, and origin.
 
 One way to visualize this data might be:
 
-<img src="https://raw.githubusercontent.com/faunadb/exercises/master/viz/viz.jpg" width="50%">
+<img src="https://raw.githubusercontent.com/faunadb/exercises/master/front-end-visualization/front-end-visualization.jpg" width="50%">
 
 But this way is terrible.
 
@@ -27,7 +27,7 @@ Additional notes:
 
   - The units for each category are not always the same. You'll need to find a way to either normalize all units, or prevent comparisons that don't make sense.
 
-### Extra credit
+### Extra Credit
 
   - Aggregate any data excluded from the current selection and present the aggregation along with the selected data to add context.
   - Include some animation effects.
