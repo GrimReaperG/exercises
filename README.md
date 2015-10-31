@@ -32,7 +32,7 @@ Please submit your solution with the job application upload form or as an attach
 
 You will be primarily evaluated on the following points:
 
-- Functionl correctness
+- Functional correctness
 - Implementation clarity and extensibility
 - Performance-mindedness
 - Thoroughness of tests, if applicable
