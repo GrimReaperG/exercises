@@ -10,9 +10,11 @@ Mailinator is a web service for checking email sent to public, temporary email a
 Your task is to implement an API service that performs the same functions as Mailinator. It should expose the following HTTP endpoints.
 
  - `POST /mailboxes`: Create a new, random email address.
- - `POST /mailboxes/{email address}/messages`: Send a message to a specific email address at the service.
+ - `POST /mailboxes/{email address}/messages`: Create a new message for a specific email address.
  - `GET /mailboxes/{email address}/messages`: Retrieve an index of messages sent to an email address, including sender, subject, and id, in recency order. Support cursor-based pagination through the index.
  - `GET /mailboxes/{email address}/messages/{message id}`: Retrieve a specific message by id.
+ - `DELETE /mailboxes/{email address}`: Delete a specific email address and any associated messages.
+ - `DELETE /mailboxes/{email address}/messages/{message id}`: Delete a specific message by id.
 
 Whether email addresses need to be created before they can receive messages is up to you.
 
