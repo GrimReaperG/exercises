@@ -3,6 +3,8 @@
 
 Copyright 2015, Fauna, Inc. All rights reserved. For general instructions, see [here](https://github.com/faunadb/exercises/blob/master/README.md).
 
+### Responsive Redesign
+
 Your goal is to redesign this page: https://en.wikipedia.org/wiki/Squall
 
 You should create two mockups for the web: one desktop, one mobile (assume a responsive design and implementation). You should also include a two-paragraph written discussion of the user experience of the page and the design decisions you made in light of the user's needs.

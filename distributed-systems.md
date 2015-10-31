@@ -3,6 +3,8 @@
 
 Copyright 2015, Fauna, Inc. All rights reserved. For general instructions, see [here](https://github.com/faunadb/exercises/blob/master/README.md).
 
+### Log-Structured Merge-Tree
+
 Consider the following data object:
 
     "henwen": {

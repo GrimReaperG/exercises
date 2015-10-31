@@ -3,6 +3,8 @@
 
 Copyright 2015, Fauna, Inc. All rights reserved. For general instructions, see [here](https://github.com/faunadb/exercises/blob/master/README.md).
 
+### Responsive Layout Production
+
 Consider the following pair of mockups:
 
 <img src="https://raw.githubusercontent.com/faunadb/exercises/master/front-end-layout/front-end-layout.jpg" width="33%" style="float:left;">

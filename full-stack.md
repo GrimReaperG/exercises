@@ -3,6 +3,8 @@
 
 Copyright 2015, Fauna, Inc. All rights reserved. For general instructions, see [here](https://github.com/faunadb/exercises/blob/master/README.md).
 
+### Mailinator
+
 Mailinator is a web service for checking email sent to public, temporary email addresses. There are many similar services.
 
 Your task is to implement an API service that performs the same functions as Mailinator. It should expose the following HTTP endpoints.
@@ -17,7 +19,7 @@ Whether email addresses need to be explicitly created in order to receive messag
 Additional requirements:
 
   - The input and output formats should be well-structured JSON.
-  - Old messages must be eventually be expired, so you'll need to implement an eviction or garbage collection strategy.
+  - Old messages must eventually be expired, so you'll need to implement an eviction or garbage collection strategy.
   - Make sure to support concurrent access, either through multi-threading or multi-processing.
   - Include an automated benchmark suite that measures the performance and scalability of your solution.
 
