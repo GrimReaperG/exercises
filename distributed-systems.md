@@ -39,10 +39,10 @@ Your task is to implement a compaction function that can merge files in this for
 
 Please use a statically typed language for your implementation, if you know one, and include automated tests.
 
-### Input and output
+### Input and Output
 
 You can find sample input and output files [here](https://github.com/faunadb/exercises/tree/master/distributed-systems).
 
-### Extra credit
+### Extra Credit
 
  * Implement a reader function that lets you retrieve an object by name. Consider the performance implications of your strategy.

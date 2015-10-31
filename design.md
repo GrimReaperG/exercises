@@ -23,6 +23,6 @@ Additional notes:
   - You can change the Wikipedia logo if you wish, but you don't have to.
   - If you obscure any items in dropdowns, accordions, or the like, show an example of the expanded view as well.
 
-### Extra credit
+### Extra Credit
 
   - Choose something in your design that might be difficult for an older browser such as Internet Explorer to render. Include an alternate version of that element for designed older browsers.

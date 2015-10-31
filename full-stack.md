@@ -23,7 +23,7 @@ Additional requirements:
 
 Please use a statically typed language for your implementation, if you know one, and the application framework of your choice. You may use a database, but you don't have to. Document your code and include automated tests.
 
-### Extra credit
+### Extra Credit
 
 The original Mailinator service ran as a single Java process on a single machine, storing all data on the heap.
 

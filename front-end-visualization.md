@@ -27,7 +27,7 @@ Additional notes:
 
   - The units for each category are not always the same. You'll need to find a way to either normalize all units, or prevent comparisons that don't make sense.
 
-### Extra credit
+### Extra Credit
 
   - Aggregate any data excluded from the current selection and present the aggregation along with the selected data to add context.
   - Include some animation effects.

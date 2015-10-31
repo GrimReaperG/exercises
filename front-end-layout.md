@@ -36,6 +36,6 @@ Additional notes:
   - All text can be lorem ipsum.
   - HiDPI images are not required.
 
-### Extra credit
+### Extra Credit
 
   - Render the text within the SVG in the second slider underneath the triangle light layer. It must render precisely.
