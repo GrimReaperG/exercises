@@ -9,7 +9,7 @@ Consider the following dataset provided by the USDA ([Excel format](https://raw.
 
 One way to visualize this data might be:
 
-<img src="https://raw.githubusercontent.com/faunadb/exercises/master/front-end-visualization/front-end-visualization.jpg" width="50%">
+<img src="https://raw.githubusercontent.com/faunadb/exercises/master/front-end-visualization/viz.jpg" width="50%">
 
 But this way is terrible.
 
