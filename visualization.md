@@ -15,7 +15,7 @@ But this way is terrible.
 
 Your goal is to present this data in a way that makes sense and allows for exploration.
 
-  - For **product designers**, you should create mockups for all views and interaction elements, including desktop and mobile layouts. Assume a responsive design and implementation.
+  - For **product designers**, you should create mockups for all views and interaction elements, including desktop and mobile layouts.
   - For **front-end engineers**, implement a responsive webpage with valid HTML, CSS, and JavaScript.
 
 Include a written discussion of the user experience of the page and the design decisions you made in light of the user's needs. Note that the units for each category are not always the same. You'll need to find a way to either normalize all units, or prevent comparisons that don't make sense.
