@@ -6,12 +6,8 @@ Copyright 2015, Fauna, Inc. All rights reserved.
 
 Please choose an exercise below based on the position you are applying for:
 
-- Design positions:
-  - [Responsive redesign](https://github.com/faunadb/exercises/blob/master/design.md)
-
-- Front-end positions:
-  - [Responsive visualization](https://github.com/faunadb/exercises/blob/master/front-end-visualization.md)
-  - [Responsive layout](https://github.com/faunadb/exercises/blob/master/front-end-layout.md)
+- Design and front-end positions:
+  - [Responsive visualization](https://github.com/faunadb/exercises/blob/master/visualization.md)
 
 - Full-stack positions:
   - [RESTful API service](https://github.com/faunadb/exercises/blob/master/full-stack.md)
@@ -32,9 +28,9 @@ Please submit your solution with the job application upload form or as an attach
 
 You will be primarily evaluated on the following points:
 
-- Functional correctness
-- Implementation clarity and extensibility
-- Performance-mindedness
-- Thoroughness of tests, if applicable
+- Functional correctness.
+- Implementation clarity and extensibility.
+- Performance-mindedness, if applicable.
+- Thoroughness of tests, if applicable.
 
 Good luck!
