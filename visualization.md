@@ -46,3 +46,13 @@ The original data sources are [here](http://www.ers.usda.gov/data-products/us-fo
 #### Extra credit
 
 Fulfill as much of the criteria from the other role as possible: designers, implement a responsive webpage of your design. Front-end engineers, include some of the requested design elements in your webpage.
+
+## Evaluation Criteria
+
+You will be primarily evaluated on the following points: 
+
+- How complete the design is
+- How well the design fulfills the requirements of the exercise
+- Overall design
+
+Good luck!
