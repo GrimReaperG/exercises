@@ -1,5 +1,5 @@
 
-## UX Exercise
+## Front-End and UX Exercise
 
 Copyright 2015, Fauna, Inc. All rights reserved. For general instructions, see [here](https://github.com/faunadb/exercises/blob/master/README.md).
 
@@ -49,7 +49,7 @@ Fulfill as much of the criteria from the other role as possible: designers, impl
 
 ## Evaluation Criteria
 
-You will be primarily evaluated on the following points: 
+You will be primarily evaluated on the following points:
 
 - How complete the design is
 - How well the design fulfills the requirements of the exercise

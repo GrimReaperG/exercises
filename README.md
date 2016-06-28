@@ -1,6 +1,6 @@
 # FaunaDB Interview Exercises
 
-Copyright 2015, Fauna, Inc. All rights reserved.
+Copyright 2016, Fauna, Inc. All rights reserved.
 
 ## Instructions
 
