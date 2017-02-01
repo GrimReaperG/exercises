@@ -1,7 +1,7 @@
 
 ## Backend and Full-Stack Exercise
 
-Copyright 2016, Fauna, Inc. All rights reserved. For general instructions, see [here](https://github.com/faunadb/exercises/blob/master/README.md).
+Copyright 2016, Fauna, Inc. All rights reserved. For general instructions, see [here](https://github.com/fauna/exercises/blob/master/README.md).
 
 ### RESTful API Service
 

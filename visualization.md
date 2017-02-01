@@ -1,15 +1,15 @@
 
 ## Front-End and UX Exercise
 
-Copyright 2015, Fauna, Inc. All rights reserved. For general instructions, see [here](https://github.com/faunadb/exercises/blob/master/README.md).
+Copyright 2015, Fauna, Inc. All rights reserved. For general instructions, see [here](https://github.com/fauna/exercises/blob/master/README.md).
 
 ### Responsive Visualization
 
-Consider the following dataset provided by the USDA ([Excel format](https://raw.githubusercontent.com/faunadb/exercises/master/visualization/importedfoodsbycountry2015.xls) / [HTML format](https://raw.githubusercontent.com/faunadb/exercises/master/visualization/importedfoodsbycountry2015.tar.gz)) of food import quantities to the United States by year, category, and origin.
+Consider the following dataset provided by the USDA ([Excel format](https://raw.githubusercontent.com/fauna/exercises/master/visualization/importedfoodsbycountry2015.xls) / [HTML format](https://raw.githubusercontent.com/fauna/exercises/master/visualization/importedfoodsbycountry2015.tar.gz)) of food import quantities to the United States by year, category, and origin.
 
 One way to visualize this data might be:
 
-<img src="https://raw.githubusercontent.com/faunadb/exercises/master/visualization/visualization.jpg" width="50%">
+<img src="https://raw.githubusercontent.com/fauna/exercises/master/visualization/visualization.jpg" width="50%">
 
 But this way is terrible.
 
